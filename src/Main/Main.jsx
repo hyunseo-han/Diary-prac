@@ -47,7 +47,6 @@ const Title2 = styled.div`
   color: #9b8962;
 `;
 
-//10뒤에는 px 생략?
 function Main() {
   return (
     <div>

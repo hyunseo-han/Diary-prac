@@ -6,7 +6,6 @@ const HeaderDiv = styled.div`
   width: 100%;
   height: 82px;
   background: #ffffff;
-  padding-bottom: 41px;
 `;
 
 const LogoImg = styled.img`
@@ -15,12 +14,13 @@ const LogoImg = styled.img`
   width: 80px;
   height: 80px;
   cursor: pointer;
-  margin-top: 10px;
-  margin-right: 20px;
+  margin: 1px 13.5px 1px 24px;
 `;
 
 const Logo = styled.span`
   /* 같이의 가치 글자 로고*/
+  position: relative;
+  top: -35px;
   width: 77px;
   height: 60px;
   margin-right: 200px;
@@ -31,6 +31,7 @@ const Logo = styled.span`
   line-height: 25px;
   align-items: center;
   color: #84cc16;
+  cursor: pointer;
 `;
 
 const Diary = styled.span`
@@ -45,9 +46,12 @@ const Diary = styled.span`
   line-height: 30px;
   align-items: center;
   color: #9b8962;
+  top: -35px;
+  cursor: pointer;
 `;
 
 const Mem = styled.span`
+  position: relative;
   width: 46.48px;
   height: 62px;
   font-family: "BM DoHyeon OTF";
@@ -57,13 +61,12 @@ const Mem = styled.span`
   align-items: center;
   color: #9b8962;
   margin-right: 200px;
+  top: -35px;
+  cursor: pointer;
 `;
 
 const Login = styled.span`
-  left: 86.79%;
-  right: 1.64%;
-  top: 2.36%;
-  bottom: 94.31%;
+  position: relative;
   font-family: "BM DoHyeon OTF";
   font-style: normal;
   font-weight: 400;
@@ -72,13 +75,12 @@ const Login = styled.span`
   align-items: center;
   text-align: center;
   color: #9b8962;
+  top: -35px;
+  cursor: pointer;
 `;
 
 const Bar = styled.span`
-  left: 86.79%;
-  right: 1.64%;
-  top: 2.36%;
-  bottom: 94.31%;
+  position: relative;
   font-family: "BM DoHyeon OTF";
   font-style: normal;
   font-weight: 400;
@@ -87,13 +89,11 @@ const Bar = styled.span`
   align-items: center;
   text-align: center;
   color: #9b8962;
+  top: -35px;
 `;
 
 const Join = styled.span`
-  left: 86.79%;
-  right: 1.64%;
-  top: 2.36%;
-  bottom: 94.31%;
+  position: relative;
   font-family: "BM DoHyeon OTF";
   font-style: normal;
   font-weight: 400;
@@ -102,6 +102,8 @@ const Join = styled.span`
   align-items: center;
   text-align: center;
   color: #9b8962;
+  top: -35px;
+  cursor: pointer;
 `;
 
 function Header() {
